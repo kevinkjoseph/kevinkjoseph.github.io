@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Kevin Kuriakose Joseph"
 title_separator          : "-"
 name                     : &name "Kevin Kuriakose Joseph"
-description              : &description "cities, data, public policy"
+description              : &description "cities, data, water systems & public policy"
 url                      : https://kevinkjoseph.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kevinkjoseph/kevinkjoseph.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Kevin Kuriakose Joseph"
   avatar           : "kevin.jpg"
-  bio              : "cities, data, publicpolicy"
+  bio              : "cities, data, water systems & public-policy"
   location         : "Toronto"
   employer         :
   pubmed           :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "kevinkjoseph"
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "thegartnerhype"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -175,7 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  projects:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -209,10 +209,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _projects
   - scope:
       path: ""
-      type: teaching
+      type: projects
     values:
       layout: single
       author_profile: true
