@@ -8,10 +8,5 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-
-
-
-
 <object data="{{ site.url }}{{ site.baseurl }}/files/cv_KKJ.pdf" width="1000" height="800" type="application/pdf"></object>
 
